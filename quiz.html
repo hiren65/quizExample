@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz in JavaScript</title>
+<link rel="stylesheet" type="text/css"  href="main.css">
+</head>
+
+<body>
+	<header><h1>Answer Questions Below</h1></header>
+   
+   <section id="mainBlock">        
+	<div>
+		
+		<p id="q1">       </p>
+		
+		<p id="q2">       </p>
+		
+		
+	</div>
+	
+	<div>
+		<p id="opt1">   </p>   <input id="displayOnOff" type="radio" name="gender" value="male" onclick="verifica();"> 
+	
+		<p id="opt2">   </p>  <input id="display1" type="radio" name="gender" value="female" onclick="verifica();">
+		
+		<p id="result"> </p>
+	
+	</div>
+	</section>
+
+    <div id="forButton">     
+    
+		<button id="quiz-button"  onClick="trkk();" type="button">Press ME</button>
+		<button id="quiz-RefreshButton"  onClick="refreshQuiz();" type="button">Refresh</button>
+			
+	</div>
+	
+	<div>
+	    
+		<p id="verify"> </p>
+	     
+	</div>
+	
+	
+
+	<script src="content.js"></script>
+</body>
+</html>
